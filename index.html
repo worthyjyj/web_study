@@ -8,6 +8,20 @@
 </head>
 <body>
     <h1>영밥이</h1>
+    <input type="button" value="밤에는 이걸 눌러서 눈보호하세여" onclick="
+    var target = document.querySelector('body'); //onclick은 사용자와 상호작용하는 자바스크립트 언어. 그렇기 때문에 HTML의 태그를 가져오려면 querySelector가 필요함
+    if(this.value === '밤에는 이걸 눌러서 눈보호하세여'){
+    target.style.backgroundColor = 'black';
+    target.style.color = 'White';
+    this.value = '다시 밝게 볼라면 누르시오';
+    }
+    else{
+    target.style.backgroundColor = 'White';
+    target.style.color = 'black';
+    this.value = '밤에는 이걸 눌러서 눈보호하세여';
+    }
+    "
+    >
     <p><iframe width="1170" height="658" src="https://www.youtube.com/embed/fL6rM4hTFJA" title="동생이 다이어트 한다고 해서 만든 노래" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 <ol>
  <li><a href="자기소개.html" target="_blank"> 자기소개</a></li>
